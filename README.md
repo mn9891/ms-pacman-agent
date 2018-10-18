@@ -1,10 +1,14 @@
-# Dynamic Connect-3
+# ms-pacman-agent
 
 
 ### Project 3 - AI course (ECSE 526) - McGill - Fall 2016
 Check project instuctions [here](http://www.cim.mcgill.ca/~jer/courses/ai/as3).
   
-In this project, I coded a reinforcement learning agent whose role is to play the famous Ms. Pacman game  within the Atari emulator (Stella) using the Arcade Learning Environment ALE. The agent coded for this project uses RL-Glue interface to communicate with the ALE. The C++ code could be found in the pacman_rlglue folder - [pacman_rlglue] (pacman_rlglue).
+In this project, I coded a reinforcement learning agent whose role is to play the famous Ms. Pacman game  within the Atari emulator (Stella) using the Arcade Learning Environment ALE. 
+
+  ![mspacman](https://user-images.githubusercontent.com/44270915/47176769-727d7080-d2e4-11e8-8fdd-51ebbf725aa0.PNG)
+
+The agent coded for this project uses RL-Glue interface to communicate with the ALE. The C++ code could be found in the pacman_rlglue folder - [pacman_rlglue] (pacman_rlglue).
 The complete results of the simulation could be found in the [pacman_rlglue/results_30_episodes](results_30_episodes.txt) file.
 The agent was able to achieve a mean score of 4688 over the 30 episodes with a maximum of 8980.
 Please check the [assignement report](ASSIGNMENT_3_REPORT.pdf) for details about performance and the reward funcion used.
