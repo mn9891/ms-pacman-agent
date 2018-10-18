@@ -1,0 +1,19 @@
+all: pacman_agent
+
+pacman_agent: pacman_agent.o pacman_objects.o smart_agent.o constants.o
+	$(CXX) pacman_agent.o pacman_objects.o smart_agent.o constants.o $(AGENTLDFLAGS) -o pacman_agent
+
+pacman_agent.o: pacman_agent.cpp
+	$(CXX) $(CFLAGS) -c pacman_agent.cpp -o pacman_agent.o
+
+pacman_objects.o: pacman_objects.cpp
+	$(CXX) $(CFLAGS) -c pacman_objects.cpp -o pacman_objects.o
+
+smart_agent.o: smart_agent.cpp
+	$(CXX) $(CFLAGS) -c smart_agent.cpp -o smart_agent.o
+
+constants.o: constants.cpp
+	$(CXX) $(CFLAGS) -c constants.cpp -o constants.o
+
+clean:
+	rm -rf pacman_agent pacman_agent.exe *.o

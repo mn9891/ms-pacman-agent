@@ -1,0 +1,36 @@
+RL-Glue C Experiment Codec Version 2.0, Build 576
+	Connecting to host=127.0.0.1 on port=4096...
+	RL-Glue C Experiment Codec :: Connected
+VERSION RL-Glue-3.0 PROBLEMTYPE episodic DISCOUNTFACTOR 1 OBSERVATIONS INTS (128 0 255)(33600 0 127) ACTIONS INTS (0 18) REWARDS (UNSPEC UNSPEC) EXTRA Name: Arcade Learning Environment 
+4353 Steps 	4130.000000 total reward	 1 natural end
+6233 Steps 	6430.000000 total reward	 1 natural end
+3369 Steps 	1630.000000 total reward	 1 natural end
+9977 Steps 	7050.000000 total reward	 1 natural end
+5225 Steps 	6380.000000 total reward	 1 natural end
+9025 Steps 	9120.000000 total reward	 1 natural end
+7169 Steps 	3530.000000 total reward	 1 natural end
+5817 Steps 	3540.000000 total reward	 1 natural end
+4849 Steps 	4140.000000 total reward	 1 natural end
+4121 Steps 	3320.000000 total reward	 1 natural end
+7433 Steps 	10441.000000 total reward	 1 natural end
+6305 Steps 	5780.000000 total reward	 1 natural end
+3793 Steps 	3690.000000 total reward	 1 natural end
+3825 Steps 	2400.000000 total reward	 1 natural end
+4321 Steps 	4970.000000 total reward	 1 natural end
+4745 Steps 	4510.000000 total reward	 1 natural end
+8905 Steps 	8980.000000 total reward	 1 natural end
+3841 Steps 	3770.000000 total reward	 1 natural end
+7577 Steps 	5120.000000 total reward	 1 natural end
+2921 Steps 	1330.000000 total reward	 1 natural end
+5665 Steps 	4890.000000 total reward	 1 natural end
+8673 Steps 	6560.000000 total reward	 1 natural end
+3577 Steps 	2480.000000 total reward	 1 natural end
+6969 Steps 	6610.000000 total reward	 1 natural end
+3017 Steps 	2320.000000 total reward	 1 natural end
+3113 Steps 	2410.000000 total reward	 1 natural end
+3041 Steps 	1350.000000 total reward	 1 natural end
+2649 Steps 	1180.000000 total reward	 1 natural end
+6017 Steps 	7350.000000 total reward	 1 natural end
+6521 Steps 	5230.000000 total reward	 1 natural end
+Average reward for 30 episodes is 4688.03
+Standard deviation 2426.22
